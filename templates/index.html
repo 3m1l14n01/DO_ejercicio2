@@ -21,6 +21,6 @@
         <button type="submit">Calcular</button>
     </form>
     <h2>Resultado: {{ result }}</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TecMilenio.png" alt="TecMilenio Logo" width="150">
+    <img src="{{ url_for('static', filename='tecmilogo.png') }}" alt="TecMilenio Logo" width="150">
 </body>
 </html>
