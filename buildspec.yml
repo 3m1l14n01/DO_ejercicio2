@@ -8,8 +8,8 @@ phases:
   build:
     commands:
       - echo "Build docker"
-      - docker build -t flask-app ./app
-      
+      - docker build -t flask-app .
+
   post_build:
     commands:
       - echo "Running deploy script"
