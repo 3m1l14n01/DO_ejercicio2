@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora TecMilenio</title>
+</head>
+<body>
+    <h1>Calculadora Aritmética, Binaria y Lógica</h1>
+    <form method="POST">
+        <label>Tipo:</label>
+        <select name="tipo">
+            <option value="aritmetica">Aritmética</option>
+            <option value="binaria">Binaria</option>
+            <option value="logica">Lógica</option>
+        </select><br>
+        <label>Operación:</label>
+        <input type="text" name="operacion"><br>
+        <label>A:</label>
+        <input type="text" name="a"><br>
+        <label>B:</label>
+        <input type="text" name="b"><br>
+        <button type="submit">Calcular</button>
+    </form>
+    <h2>Resultado: {{ result }}</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_TecMilenio.png" alt="TecMilenio Logo" width="150">
+</body>
+</html>
