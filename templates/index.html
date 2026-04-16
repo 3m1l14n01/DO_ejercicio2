@@ -12,14 +12,20 @@
             <option value="binaria">Binaria</option>
             <option value="logica">Lógica</option>
         </select><br>
+        
         <label>Operación:</label>
         <input type="text" name="operacion"><br>
+        
         <label>A:</label>
         <input type="text" name="a"><br>
+        
         <label>B:</label>
         <input type="text" name="b"><br>
+        
         <button type="submit">Calcular</button>
+        <button type="reset">Limpiar</button>
     </form>
+    
     <h2>Resultado: {{ result }}</h2>
     <img src="{{ url_for('static', filename='tecmilogo.png') }}" alt="TecMilenio Logo" width="150">
 </body>
